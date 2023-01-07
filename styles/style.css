@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  background-image: url(../images/banner/banner2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.banner{
+    text-align: right;
+    padding: 216px 200px 190px 845px;
+
+}
+.banner-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 24px;
+}
+.banner-description {
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.banner-button {
+  background-color: coral;
+  border-radius: 5px;
+  height: 64px;
+  width: 160px;
+  color: azure;
+  border: none;
+}
+
+/* Main section */
+
+/* Failure part */
+.my-previous-year {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 100px;
+  justify-content: space-around;
+}
+.failures {
+  margin-left: 216px;
+  margin-right: 210px;
+  text-align: right;
+  margin-top: 130px;
+}
+.failure-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  /* margin-bottom:24px; */
+}
+.failure-description {
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 24px;
+}
+.list {
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  list-style: none;
+  margin-top: 16px;
+  /* text-align: right; */
+}
+.list .list-two {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.list .list-four {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.person {
+  position: left;
+}
