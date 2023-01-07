@@ -6,12 +6,10 @@
   background-image: url(../images/banner/banner2.png);
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
-.banner{
-    text-align: right;
-    padding: 216px 200px 190px 845px;
-
+.banner {
+  text-align: right;
+  padding: 216px 200px 190px 845px;
 }
 .banner-title {
   color: #151414;
@@ -37,17 +35,27 @@
 /* Main section */
 
 /* Failure part */
+
+main {
+  max-width: 1172px;
+  margin: 0 auto;
+}
 .my-previous-year {
   display: flex;
   justify-content: space-between;
-  margin-left: 150px;
-  margin-right: 100px;
+
+  /* margin-left: 150px;
+  margin-right: 100px; */
+  /* align-items: center; */
   justify-content: space-around;
+  margin-top: 130px;
+  /* padding: 130px 100px; */
 }
+
 .failures {
   margin-left: 216px;
   margin-right: 210px;
-  text-align: right;
+  /* text-align: center; */
   margin-top: 130px;
 }
 .failure-title {
@@ -61,14 +69,17 @@
   font-weight: 400;
   font-size: 16px;
   margin-top: 24px;
+  /* margin-left: 87px; */
 }
 .list {
   color: #444343;
   font-weight: 400;
   font-size: 16px;
-  list-style: none;
   margin-top: 16px;
   /* text-align: right; */
+}
+.list .nothing {
+  list-style: none;
 }
 .list .list-two {
   margin-top: 8px;
@@ -81,3 +92,76 @@
 .person {
   position: left;
 }
+
+/* my plan style part */
+
+.plan {
+}
+.things-i-want-to-do {
+  display: flex;
+  /* margin-left: 86px; */
+}
+
+.plan-title {
+  text-align: center;
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 35px;
+  margin-top: 130px;
+}
+.title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.title-start {
+  color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+}
+.things-i-want-to-do .subjects2 {
+  margin-left: 86px;
+  margin-right: 86px;
+}
+.things-i-want-to-do .subjects3 {
+  /* margin-left: 86px; */
+  margin-right: 86px;
+}
+
+.positive {
+  margin-top: 130px;
+  background-image: url("../images/watch.png");
+}
+
+.positive .positive-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 59px;
+  margin-bottom: 24px;
+}
+
+.positive .call-button {
+}
+
+/* .things-i-want-to-do .skill-i-will-learn .title {
+  margin-top: 25px;
+  margin-bottom: 15px; */
+
+/* .subjects .title3 {
+  color: #151414;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.things-i-want-to-do .subjects .title4 {
+  color: #151414;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 15px; */
+
+/* positive section */
