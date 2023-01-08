@@ -36,14 +36,16 @@
 
 /* Failure part */
 
-main {
-  max-width: 1172px;
-  margin: 0 auto;
+.main {
+  /* max-width: 1172px;
+  margin: 0 auto; */
 }
 .my-previous-year {
+  max-width: 1142px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-
+  padding: none;
   /* margin-left: 150px;
   margin-right: 100px; */
   /* align-items: center; */
@@ -64,7 +66,7 @@ main {
   font-size: 40px;
   /* margin-bottom:24px; */
 }
-.failure-description {
+.failures-description {
   color: #444343;
   font-weight: 400;
   font-size: 16px;
@@ -96,6 +98,8 @@ main {
 /* my plan style part */
 
 .plan {
+  max-width: 1172px;
+  margin: 0 auto;
 }
 .things-i-want-to-do {
   display: flex;
@@ -122,29 +126,141 @@ main {
   font-size: 25px;
 }
 .things-i-want-to-do .subjects2 {
-  margin-left: 86px;
-  margin-right: 86px;
+  margin-left: 96px;
+  margin-right: 96px;
 }
 .things-i-want-to-do .subjects3 {
   /* margin-left: 86px; */
-  margin-right: 86px;
+  margin-right: 96px;
 }
+
+
+
+
+
 
 .positive {
+  /* max-width: 572px; */
+  margin: 0 auto;
+  height: 400px;
   margin-top: 130px;
-  background-image: url("../images/watch.png");
+  margin-bottom: 130px;
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
+
+
+
 .positive .positive-title {
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 40px;
-  margin-top: 59px;
-  margin-bottom: 24px;
+  margin-top: 200px;
+  
+  /* margin-bottom: 24px; */
+  margin-left: 65px;
+  /* margin-bottom:100px; */
 }
 
 .positive .call-button {
+  height: 64px;
+  width: 160px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 5px;
+
+  color: #f15b22;
+  margin-top: 156px;
+  /* margin-bottom: 100px; */
+  margin-left: 65px;
+  font-weight: 600;
+  font-size: 20px;
 }
+
+/* footer section */
+
+.footer {
+  background: #151414;
+  max-height: 500px;
+  margin: 0;
+  /* display: flex; */
+}
+
+.footer .text {
+  display: flex;
+  justify-content: space-between;
+  margin top: 130px;
+  /* margin-left: 200px; */
+  /* margin-right: 200px; */
+}
+
+.future {
+  margin-left: 230px;
+}
+.future-title {
+  color: #f8f8f8;
+  font-weight: 700;
+  font-size: 45px;
+}
+.description {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.email {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+}
+.phone {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.icon {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 130px;
+}
+
+.subscribe {
+  margin-right: 230px;
+}
+.subscribe-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+}
+.subscribe .email {
+  height: 64px;
+  border-radius: 5px;
+  color: #f3f3f3;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 42px;
+  margin-bottom: 38px;
+}
+.btn .subscribe {
+  height: 64px;
+  width: 140px;
+  border-radius: 5px;
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* .body .description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+  } */
 
 /* .things-i-want-to-do .skill-i-will-learn .title {
   margin-top: 25px;
